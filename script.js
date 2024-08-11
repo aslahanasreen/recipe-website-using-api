@@ -5,7 +5,7 @@ res.then((resolve)=> resolve.json()).then((val)=>{
 
     val.recipes.forEach(element => {
        e+=`
-            <div class="row my-4 ms-2">
+            <div class="row my-4 mx-2">
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <img src="${element.image}" style="width:100%">
                 </div>

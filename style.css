@@ -3,6 +3,9 @@
   margin: 0px;
   box-sizing: border-box;
 }
+body{
+  overflow-x: hidden;
+}
 
 .f1{
   font-family: "Noto Serif Khitan Small Script", serif;
@@ -102,9 +105,18 @@ img{
 .card:hover .overlay{
   background-color: rgba(255, 255, 255, 0.5);
 }
+.sp{
+  font-family: "Sacramento", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+}
 
 @media (max-width:1000px){
   .image-row{
     overflow-x: scroll;
+  }
+  body{
+    overflow-x: hidden;
   }
 }
